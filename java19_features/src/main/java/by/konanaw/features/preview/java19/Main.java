@@ -15,9 +15,9 @@ public class Main {
         //
         structuredConcurrencyProcessor.runSuccess();
         //
-//        System.out.println("***** running with throw *****");
+        System.out.println("***** running with throw *****");
         //
-//        structuredConcurrencyProcessor.runFail();
+        structuredConcurrencyProcessor.runFail();
 
     }
 }
