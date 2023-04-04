@@ -1,4 +1,4 @@
-package by.konanaw.features;
+package by.konanaw.features.preview.java19;
 
 import jdk.incubator.concurrent.StructuredTaskScope;
 
