@@ -9,15 +9,22 @@ public class Main {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
 
         System.out.println("Hello world!");
-        System.out.println("¯\\_(ツ)_/¯");
 
         structuredConcurrencyProcessor = new StructuredConcurrencyProcessor();
-        //
-        structuredConcurrencyProcessor.runSuccess();
-        //
-        System.out.println("***** running with throw *****");
-        //
-        structuredConcurrencyProcessor.runFail();
 
+        runSuccess();
+        // or
+        runFail();
+
+    }
+
+    private static void runSuccess() throws InterruptedException, ExecutionException {
+        System.out.println("***** run successfully *****");
+        structuredConcurrencyProcessor.runSuccess();
+    }
+
+    private static void runFail() throws InterruptedException, ExecutionException {
+        System.out.println("***** running with exception *****");
+        structuredConcurrencyProcessor.runFail();
     }
 }
