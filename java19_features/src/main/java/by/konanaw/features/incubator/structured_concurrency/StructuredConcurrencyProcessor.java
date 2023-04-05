@@ -1,4 +1,4 @@
-package by.konanaw.features.preview.java19;
+package by.konanaw.features.incubator.structured_concurrency;
 
 import jdk.incubator.concurrent.StructuredTaskScope;
 

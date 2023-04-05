@@ -1,7 +1,7 @@
 # java-features
 
 ```
-java --enable-preview --add-modules jdk.incubator.concurrent -cp target\classes by.konanaw.features.preview.java19.Main
+java --enable-preview --add-modules jdk.incubator.concurrent -cp target\classes by.konanaw.features.incubator.structured_concurrency.Main
 ```
 
 [Project Loom](https://wiki.openjdk.org/display/loom)
